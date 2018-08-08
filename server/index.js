@@ -24,8 +24,8 @@ http.createServer((request, response) => {
     response.writeHead(404);
     response.end();  
   }
-}).listen(5000, () => {
-  console.log('Server running at http://127.0.0.1:5000/');
+}).listen(4000, () => {
+  console.log('Server running at http://127.0.0.1:4000/');
 });
 
 function sendEvents(response, eventHistory) {
