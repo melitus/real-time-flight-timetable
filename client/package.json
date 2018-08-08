@@ -18,7 +18,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/melitus/real-time-flight-timetable.git#master"
+  },
+	"author": "npm@melitus",
+  "license": "SEE LICENSE IN <LICENSE>"
+
 }
 
 
