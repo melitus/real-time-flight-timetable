@@ -25,7 +25,7 @@ class App extends Component {
       accessor: 'state'
     }];
 
-    this.eventSource = new EventSource('http://localhost:5000/events');
+    this.eventSource = new EventSource('http://localhost:4000/events');
   }
 
   componentDidMount() {

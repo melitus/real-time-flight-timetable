@@ -1,7 +1,12 @@
 {
-  "name": "real-time-sse-app",
+  "name": "real-time-flight-timetable",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:4000",
+  "engines": {
+    "node": ">=8.9.4",
+    "yarn": ">=1.6.0"
+  },
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
@@ -15,3 +20,5 @@
     "eject": "react-scripts eject"
   }
 }
+
+
